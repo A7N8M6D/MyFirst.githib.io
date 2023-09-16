@@ -1,0 +1,64 @@
+
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;                             /* css reset */
+}
+/* navbar css */
+.navbar
+{
+    display: flex;
+    background-color: aqua; 
+    opacity: 0.9;
+    height: 5VH;
+    align-items: center;
+}
+/* .navbar::before
+{
+   
+    z-index: index -1; 
+} */
+/* navbar logo parent */
+.navbar .navbar_logo 
+{
+    margin: 44px 50px 30px 4px;
+}
+  /* navbar logo internal css */
+ .navbar .navbar_logo h1
+{
+    /* display: inline-block; */
+    margin: 12px 33px 33px 33px;
+}
+/* navbar navbar_main ul css */
+.navbar .navbar_main ul 
+{
+    
+    display: flex;
+    margin-left: 300px;
+    /* margin-right: 200px; */
+}
+/* navbar navbar_main ul li css */
+.navbar .navbar_main ul li
+{
+    list-style: none;
+    margin-right: 100px;
+    /* color: white; */
+}
+/* .navbar .navbar_main ul li a css */
+.navbar .navbar_main ul li a
+{
+   
+    text-decoration: none;
+}
+.navbar .navbar_main ul li a:hover
+{
+   
+    color: rgb(0, 8, 255);
+    background-color: white;
+    border-radius:6px;
+}
+
+.navbar .navbar_search
+{
+    margin-left: 170px;
+}
